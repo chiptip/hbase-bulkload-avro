@@ -69,8 +69,8 @@ public class Driver {
         job.waitForCompletion(true);
 
         // Load generated HFiles into table
-        LoadIncrementalHFiles loader = new LoadIncrementalHFiles(conf);
-        loader.doBulkLoad(new Path(outputDir), hTable);
+//        LoadIncrementalHFiles loader = new LoadIncrementalHFiles(conf);
+//        loader.doBulkLoad(new Path(outputDir), hTable);
     }
 
 }
